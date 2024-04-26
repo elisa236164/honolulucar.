@@ -1,2 +1,2 @@
-public class luxuryCar implements carType {
+public class luxuryCar extends carType {
 }

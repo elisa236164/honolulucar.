@@ -1,2 +1,2 @@
-public class familyCar implements carType{
+public class familyCar extends carType{
 }

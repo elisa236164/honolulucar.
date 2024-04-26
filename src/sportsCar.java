@@ -2,13 +2,7 @@ public class sportsCar extends carType{
 
     private boolean automaticGear;
     private boolean airConditon;
-
-
-
     private boolean cruiseControl;
-
-
-
     private int leatherSeat;
 
 
@@ -41,5 +35,15 @@ public class sportsCar extends carType{
 
     public void setCruiseControl(boolean cruiseControl) {
         this.cruiseControl = cruiseControl;
+    }
+
+    @Override
+    public String toString() {
+        return "sportsCar{" +
+                "automaticGear=" + automaticGear +
+                ", airConditon=" + airConditon +
+                ", cruiseControl=" + cruiseControl +
+                ", leatherSeat=" + leatherSeat +
+                '}';
     }
 }
